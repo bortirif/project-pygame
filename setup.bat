@@ -1,13 +1,7 @@
 @echo off
-echo Установка зависимостей Python...
+chcp 65001 >nul
 
-REM Проверяем наличие Python
-python --version >nul 2>&1
-if errorlevel 1 (
-    echo Python не найден! Установите Python 3.8+
-    pause
-    exit /b 1
-)
+echo Установка зависимостей Python...
 
 REM Проверяем наличие виртуального окружения
 if not exist ".venv" (
