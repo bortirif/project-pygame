@@ -35,6 +35,6 @@ Linux/Mac: `source .venv/bin/activate`
     python main.py
     ```
 
-## Комипиляция в запускаемый файл
+## Компиляция в запускаемый файл
 1. Установить `pip install auto-py-to-exe`
 2. Запустить из консоли `auto-py-to-exe`. Смотрите инструкцию на [сайте](https://pypi.org/project/auto-py-to-exe/).
