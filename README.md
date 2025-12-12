@@ -1,40 +1,41 @@
 # Установка и запуск проекта
 
+Клонировать репозиторий
+
 ## Быстрый старт
 
 ### Windows:
-```cmd
+Запустите
+```commandline
 setup.bat
 run.bat
 ```
 
 ## Ручная установка
 
-1. Клонировать репозиторий
-2. Создать виртуальное окружение:
+1. Откройте терминал, перейдите в папку с проектом.
+
+2. Создайте виртуальное окружение:
     ```commandline
-    bash
     python -m venv .venv
     ```
 
-3. Активировать окружение:
+3. Активируйте окружение:
 
 Windows: `.venv\Scripts\activate`
 
 Linux/Mac: `source .venv/bin/activate`
 
-4. Установить зависимости:
+4. Установите зависимости:
     ```commandline
-    bash
     pip install -r requirements.txt
     ```
 
-5. Запустить проект:
+5. Запустите проект:
     ```commandline
-    bash
     python main.py
     ```
 
 ## Компиляция в запускаемый файл
-1. Установить `pip install auto-py-to-exe`
-2. Запустить из консоли `auto-py-to-exe`. Смотрите инструкцию на [сайте](https://pypi.org/project/auto-py-to-exe/).
+1. Установите `pip install auto-py-to-exe`
+2. Запустите из консоли `auto-py-to-exe`
